@@ -1,0 +1,528 @@
+
+.col-md-offset-2-5 {
+  margin-left: 12.5%;
+}
+
+/* Navigation Menu */
+.nav-menu {
+  /*background-color: #fff;*/
+  background-color: #363186;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  box-shadow: 0 0px 5px #999;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #fff;
+}
+.logo > a > img {
+  max-width: 200px;
+  margin: 20px 15px;
+}
+.menu {
+  text-align: right;
+}
+ul.phones > li, ul.list-menu > li {
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+ul.list-menu > li > a {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+ul.list-menu > li > a.shares-link {
+  color: #EF86A9;
+}
+@media (max-width: 768px) {
+  ul.phones > li {
+    display: block;
+    margin-bottom: 10px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  ul.phones {
+    margin-top: 20px;
+  }
+  ul.list-menu {
+    text-align: left;
+    margin: 80px auto 0 auto;
+  }
+}
+
+/* Header Slider */
+.header-slider {
+  height: 650px;
+  background-color: #030921;
+  background-image: url(../img/main-spine.jpg);
+  background-repeat: no-repeat;
+  background-position: 600px -50px;
+}
+.marketing {
+  width: 70%;
+  margin-left: 15px;
+  margin-top: 160px;
+  color: #fff;
+  text-shadow: 1px 1px #454545;
+  text-transform: uppercase;
+}
+.marketing > .first-header {
+  font-size: 50px;
+}
+.marketing > .second-header {
+  margin-top: 40px;
+  font-size: 30px;
+}
+.marketing > .second-header > span {
+  font-size: 45px;
+}
+@media (max-width: 768px) {
+  /* Header Slider */
+  .header-slider {
+    height: 250px;
+  }
+  .marketing {
+    width: 70%;
+    margin-left: 15px;
+    margin-top: 40px;
+    color: #fff;
+    text-shadow: 1px 1px #454545;
+    text-transform: uppercase;
+  }
+  .marketing > .first-header {
+    font-size: 20px;
+  }
+  .marketing > .second-header {
+    margin-top: 40px;
+    font-size: 15px;
+  }
+  .marketing > .second-header > span {
+    font-size: 22px;
+  }
+}
+
+/* Video */
+.video {
+  padding: 100px 0;
+  background-color: #030921;
+}
+.video-aikune {
+  text-align: center;
+}
+
+/* Info */
+.info-services {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.info-services > .row {
+  margin-bottom: 50px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.info-services > .row > .col-md-8 {
+  display: table;
+  height: 194px;
+}
+.info-service {
+  display: table-cell;
+  vertical-align: middle;
+}
+.info-service > .h3 {
+  color: #363186;
+}
+.info-service > p {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .info-service-md > .col-md-4 {
+    float: right;
+  }
+}
+
+/* Advantage */
+.advantage {
+  padding: 50px 0;
+  background-color: #ECEFEF;
+}
+.advantage > div > .h3 {
+  color: #363186;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.advantage-item {
+  font-size: 16px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* You need it */
+.you-need-it {
+  padding: 50px 0;
+  background-color: #363186;
+  /*background-color: #030921;*/
+}
+.you-need-it > div > .h3 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.you-item {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Gymnastics */
+.gymnastics {
+  color: #fff;
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 50px;
+}
+
+/* Patent */
+.patent {
+  padding: 50px 0;
+}
+.patent > div > .h3 {
+  color: #363186;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Technique */
+.technique {
+  padding-top: 50px;
+  background-color: #030921;
+  background-image: url(../img/spine.jpg);
+  background-repeat: no-repeat;
+  background-position: 300px 30px;
+}
+.technique > div > .h3 {
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.technique-item {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.help-list {
+  width: 95%;
+  margin-top: 50px;
+}
+.help-list > li {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 40px;
+  list-style-type: disc;
+}
+
+/* Symptoms */
+
+@media (min-width: 768px) {
+  .symptoms {
+    margin-top: 129px;
+  }
+}
+
+.symptoms-area {
+  display: table;
+  min-height: 400px;
+}
+.symptoms-description {
+  padding-left: 40px;
+  padding-right: 40px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.symptoms .h3 {
+  color: #fff;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.symptoms ul {
+  /*padding-left: 0;*/
+}
+.symptoms ul > li {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  list-style-type: circle;
+}
+.right-image1 {
+  width: 100%;
+  min-height: 400px;
+  background-color: #030921;
+  background-size: 100% auto !important;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-image: url(../img/ready-back-pain5.jpg);
+}
+.left-image1 {
+  width: 100%;
+  min-height: 400px;
+  background-color: #030921;
+  background-size: 100% auto !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../img/ready-body-pain2.jpg);
+}
+
+.how-it-works {
+  padding: 50px 0;
+}
+.how-it-works p {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Services */
+.services {
+  padding: 50px 0 0;
+  /*background-color: #030921;*/
+  background-color: #363186;
+}
+.services > .h3 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.services ul > li > a {
+  text-transform: uppercase;
+}
+.nav-panel {
+  /*background-color: #030921;*/
+  background-color: #363186;
+}
+.nav-pills > li > a {
+  /*color: #2196F3;*/
+  /*color: #F36BCE;*/
+  color: #ECEFEF;
+  padding: 25px 0;
+  /*background-color: #030921;*/
+  background-color: #363186;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  color: #fff;
+  /*background-color: #030921;*/
+  background-color: #363186;
+}
+.nav-pills > li > a:focus,
+.nav-pills > li > a:hover {
+  color: #fff;
+  /*background-color: #030921;*/
+  background-color: #363186;
+}
+.nav-pills > li.active > span,
+.nav-pills > li.active > span:focus,
+.nav-pills > li.active > span:hover {
+  position: absolute;
+  bottom: 0;
+  margin-left: 45%;
+  width: 0;
+  height: 0;
+  border: 16px solid transparent; 
+}
+.nav-pills > li.active > span.arrow-bottom,
+.nav-pills > li.active > span.arrow-bottom:focus,
+.nav-pills > li.active > span.arrow-bottom:hover {
+  border-bottom-color: #fff;  
+  border-top: 0;
+}
+.tab-content {
+  padding-bottom: 50px;
+}
+.tab-content > div > .h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.tab-content > div > div > p {
+  font-size: 16px;
+}
+
+/* Reviews */
+.reviews {
+  padding: 50px 0;
+  /*background-color: #ECEFEF;*/
+}
+.reviews > div > .h3 {
+  color: #363186;
+  margin-bottom: 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.scroll-reviews {
+  background-color: #fff;
+  max-height: 320px;
+  overflow-y: auto;
+}
+.comment {
+  padding: 20px;
+  margin: 10px 20px 0;
+  font-size: 17.5px;
+  background-color: #ECEFEF;
+}
+
+/* Shares */
+.shares {
+  padding: 50px 0;
+  text-align: center;
+  /*background-color: #ECEFEF;*/
+}
+.shares > div > .h3 {
+  color: #EF86A9;
+  text-align: center;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.shares-discounts-text {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.discounts {
+  color: #fff;
+  padding: 50px;
+  background-color: #EF86A9;
+  border-radius: 20px;
+}
+.title-course {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+.price-course { font-size: 38px; }
+.price-course > span { font-size: 60px; }
+
+/* Contacts */
+.contacts {
+  color: #fff;
+  padding: 50px 0;
+  /*text-align: center;*/
+  background-color: #030921;
+  text-transform: uppercase;
+}
+.contacts > div > .h3 {
+  margin-bottom: 50px;
+}
+label { font-weight: 400; }
+
+/* Footer */
+.footer {
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #030921;
+}
+
+/* Social icons */
+@font-face {
+  font-family: 'si';
+  src: url('socicon-v1.3/socicon-1.3/socicon.eot');
+  src: url('socicon-v1.3/socicon-1.3/socicon.eot?#iefix') format('embedded-opentype'),
+       url('socicon-v1.3/socicon-1.3/socicon.woff') format('woff'),
+       url('socicon-v1.3/socicon-1.3/socicon.ttf') format('truetype'),
+       url('socicon-v1.3/socicon-1.3/socicon.svg#icomoonregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'si';
+    src: url('socicon-v1.3/socicon-1.3/socicon.svg') format('svg');
+  }
+}
+
+.soc {
+  overflow:hidden;
+  margin:0; padding:0;
+  list-style:none;
+}
+
+.soc li {
+  display:inline-block;
+  *display:inline;
+  zoom:1;
+}
+
+.soc li a {
+  font-family:si!important;
+  font-style:normal;
+  font-weight:400;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+  overflow:hidden;
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  position: relative;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 27px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+  background-color: none;
+}
+
+.soc-icon-last{
+  margin:0 !important;
+}
+
+.soc-twitter {
+  background-color: #4da7de;
+}
+.soc-twitter:before {
+  content:'a';
+}
+.soc-facebook {
+  background-color: #3e5b98;
+}
+.soc-facebook:before {
+  content:'b';
+}
+.soc-google {
+  background-color: #d93e2d;
+}
+.soc-google:before {
+  content:'c';
+}
+.soc-vkontakte {
+  background-color: #5a7fa6;
+}
+.soc-vkontakte:before {
+  content:';';
+}
+.soc-youtube {
+  background-color: #e02a20;
+}
+.soc-youtube:before {
+  content:'r';
+}
