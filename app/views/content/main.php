@@ -28,7 +28,7 @@
         <div class="menu">
           <ul class="phones">
             <li>+7 708 9731440</li>
-            <!-- <li>+7 775 653 44 47</li> -->
+            <li>+7 775 6534447</li>
             <li>+7 727 9731440</li>
           </ul>
           <ul class="list-menu">
@@ -62,7 +62,7 @@
         <div class="col-md-offset-3 col-md-6 video-aikune">
           <!-- 16:9 aspect ratio -->
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/0M7S1xyM274" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/i245gus1c8o" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@
         <div class="col-md-8">
           <div class="info-service text-right">
             <div class="h3">ОСНОВНЫМ ПРОДУКТОМ ДЕЯТЕЛЬНОСТИ</div>
-            <p>«Айкуне» центра является инновационная технология Айкуне, известная как казахская гимнастика.</p>
+            <p>«Айкуне» центра является инновационная технология Айкуне,<br> известная как казахская гимнастика.</p>
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@
         <div class="col-md-8">
           <div class="info-service">
             <div class="h3">ОБРАЗОВАТЕЛЬНАЯ ПРОГРАММА АЙКУНЕ</div>
-            <p>действенна при единственном условии: ученик Айкуне нуждающийся в собственном здоровье работает над своими проблемами вначале под руководством инструктора, в дальнейшем обучившись – самостоятельно.</p>
+            <p>действенна при единственном условии: ученик Айкуне нуждающийся в собственном здоровье работает над своими проблемами вначале под руководством инструктора,<br> в дальнейшем обучившись – самостоятельно.</p>
           </div>
         </div>
       </div>
@@ -143,39 +143,39 @@
 
         <div class="row">
           <div class="col-md-3 col-xs-6">
-            <a href="img/4-patent1.jpg" target="blank">
+            <a href="/public/img/4-patent1.jpg" target="blank">
               <img class="img-responsive" src="/public/img/4-mini-patent1.jpg">
             </a>
           </div>
           <div class="col-md-3 col-xs-6">
-            <a href="img/4-patent2.jpg" target="blank">
+            <a href="/public/img/4-patent2.jpg" target="blank">
               <img class="img-responsive" src="/public/img/4-mini-patent2.jpg">
             </a>
           </div>
           <div class="col-md-3 col-xs-6">
-            <a href="img/4-review-document1.jpg" target="blank">
+            <a href="/public/img/4-review-document1.jpg" target="blank">
               <img class="img-responsive" src="/public/img/4-mini-review-document1.jpg">
             </a>
           </div>
           <div class="col-md-3 col-xs-6">
-            <a href="img/4-review-document2.jpg" target="blank">
+            <a href="/public/img/4-review-document2.jpg" target="blank">
               <img class="img-responsive" src="/public/img/4-mini-review-document2.jpg">
             </a>
           </div>
-        </div><br><br>
+        </div><br>
         <div class="row">
           <div class="col-md-3 col-xs-6">
-            <a href="img/4-sertificate1.jpg" target="blank">
+            <a href="/public/img/4-sertificate1.jpg" target="blank">
               <img class="img-responsive" src="/public/img/4-mini-sertificate1.jpg">
             </a>
           </div>
           <div class="col-md-3 col-xs-6">
-            <a href="img/4-sertificate2.jpg" target="blank">
+            <a href="/public/img/4-sertificate2.jpg" target="blank">
               <img class="img-responsive" src="/public/img/4-mini-sertificate2.jpg">
             </a>
           </div>
           <div class="col-md-3 col-xs-6">
-            <a href="img/4-sertificate3.jpg" target="blank">
+            <a href="/public/img/4-sertificate3.jpg" target="blank">
               <img class="img-responsive" src="/public/img/4-mini-sertificate3.jpg">
             </a>
           </div>
@@ -194,6 +194,7 @@
             <li>возможности быстрой самопомощи при угрозе обострений заболеваний позвоночника</li>
             <li>укреплению мышечного корсета позвоночника</li>
             <li>сформированию правильной осанки</li>
+            <li>способствует укреплению имунной системы</li>
           </ul>
         </div>
       </div>
@@ -208,12 +209,13 @@
           </div>
           <div class="col-md-6 symptoms-area">
             <div class="symptoms-description">
-              <div class="h3">Методика "Айкуне" нужна вам, если вас беспокоит:</div>
+              <div class="h3">Методика "Айкуне" нужна вам,<br> если вас беспокоит:</div>
               <ul>
                 <li>Мышечные боли</li>
                 <li>Хроническая усталость</li>
                 <li>Боли в сусставах</li>
                 <li>Боли в позвоночнике</li>
+                <li>Головные боли</li>
                 <li>Болезни органов малого таза</li>
                 <li>Онемение верхних и нижних конечностей</li>
               </ul>
@@ -223,13 +225,14 @@
         <div class="row">
           <div class="col-md-6 symptoms-area">
             <div class="symptoms-description">
-              <div class="h3">«Айкуне-терапия» поможет при таких заболеваниях как:</div>
+              <div class="h3">«Айкуне-терапия» поможет<br> при таких заболеваниях как:</div>
               <ul>
                 <li>Заболевания внутренних органов</li>
-                <li>Заболевания суставов</li>
+                <li>Заболевания суставов: артрит, артроз</li>
                 <li>Протрузия межпозвоноковых дисков</li>
                 <li>Остеохондроз</li>
-                <li>Сколиоз</li>
+                <li>Гипертония</li>
+                <li>Сколиоз, нарушение осанки</li>
                 <li>Грыжа Межпозвонковых дисков</li>
               </ul>
             </div>
@@ -247,13 +250,13 @@
         <div class="h3">КАК РАБОТАЕТ "АЙКУНЕ-ТЕРАПИЯ"</div>
         <div class="">
           <div class="col-md-4">
-            <p>1. Укрепляются внутренние мышцы и связочный аппарат позвоночника, туловища, тазовой области, верхних и нижних конечностей.</p>
+            <p>1. Укрепляются внутренние мышцы и связочный аппарат позвоночника, туловища, тазовой области, верхних и нижних конечностей.</p><br>
           </div>
           <div class="col-md-4">
-            <p>2. При плавном растяжении позвоночника увеличивается расстояние между позвонками, межпозвонковые диски занимают свое "правильное положение".</p>
+            <p>2. При плавном растяжении позвоночника увеличивается расстояние между позвонками, межпозвонковые диски занимают свое "правильное положение".</p><br>
           </div>
           <div class="col-md-4">
-            <p>3. Мягкое растяжение позвоночника позволяет освободить зажатые нервные корешки, блокировка которых и доставляет боль при заболеваниях позвоночника.</p>
+            <p>3. Мягкое растяжение позвоночника позволяет освободить зажатые нервные корешки, блокировка которых и доставляет боль при заболеваниях позвоночника.</p><br>
           </div>
         </div>
       </div>
@@ -313,7 +316,10 @@
     <div class="tab-content container">
       <div role="tabpanel" class="tab-pane active" id="massage">
         <div class="h2">Массаж</div>
-        <div class="col-md-offset-3 col-md-6">
+        <div class="col-md-6">
+          <img class="img-responsive center-block" src="/public/img/massage.jpg">
+        </div>
+        <div class="col-md-6">
           <p>Предлагаем Вам услуги профессионального массажиста: классический, лечебный, стоун-терапия, антицеллюлитный, массаж спины, стоп, ног, скраб тела.</p>
           <p>Массаж разносторонне влияет на организм: способствует усилению циркуляции крови и лимфы, активизирует обмен веществ, стимулирует пищеварение, увеличивает мышечный тонус, выводит токсины и шлаки. Помимо этого, он оказывает крайне благотворное влияние на нервную систему – помогает расслабиться, восстанавливает силы и борется со стрессом и бессонницей. А все потому, что на коже находится много нервных окончаний, и при прикосновениях в мозг посылаются сигналы, способствующие выработке эндорфина – гормона счастья.</p>
         </div>
@@ -330,7 +336,10 @@
       </div>
       <div role="tabpanel" class="tab-pane" id="cupping">
         <div class="h2">Хиджама – кровопускание</div>
-        <div class="col-md-offset-3 col-md-6">
+        <div class="col-md-6">
+          <img class="img-responsive center-block" src="/public/img/hijama.jpg">
+        </div>
+        <div class="col-md-6">
           <p>Хиджама- простой и эффективный способ избавления от многих болезней посредством выведения из организма грязной крови. Подобное лечение кровопусканием было известно ещё до нашей эры. Уже тогда знали, что кровь – это один из наиболее важных элементов человеческого организма, участвующий в важнейших процессах: транспортировке кислорода, гормонов и питательных веществ к клеткам; терморегуляции и поддержании водно-солевого баланса.</p>
           <p>Однако далеко не все знают, что кровь имеет свойство застаиваться: по сосудам человека течет лишь часть всей крови, имеющейся в организме. Остальная часть пребывает в специальных резервах в ожидании экстренной ситуации – интенсивной работы, гипоксии, кровотечения и т.д. Кровь, долго пребывающая без движения, стареет: теряет свои качества и впитывает в себя все негативные последствия неправильного питания, стрессов, грязной воды и воздуха. Кровопускание (хиджама) в подобной ситуации становится прекрасным способом избавиться от застоявшейся крови, улучшить общее самочувствие человека, придать ему сил для качественной, здоровой жизни.</p>
         </div>
@@ -375,7 +384,8 @@
     <!-- Contacts -->
     <div class="contacts" id="contacts">
       <div class="container">
-        <div class="h3">Пишите нам и с Вами свяжутся наши специалисты</div>
+        <div class="h3">Запишитесь на <span class="text-warning" style="color: #EF86A9;">бесплатное</span> пробное занятие!</div>
+        <!-- <div class="h3">Пишите нам и с Вами свяжутся наши специалисты</div> -->
 
         <?php require VIEW_ROOT . '/templates/alerts.php'; ?>
 
@@ -388,12 +398,16 @@
             <label for="phone">Номер телефона</label>
             <input type="tel" name="phone" class="form-control input-lg" id="phone" maxlength="20" required>
           </div>
-          <div class="col-md-4 form-group text-center">
+          <div class="col-md-4 form-group">
             <label>&nbsp;</label>
-            <button type="submit" class="btn btn-primary btn-lg btn-block text-uppercase"><i class="fa fa-send"></i> Отправить</button>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Записаться!</button>
           </div>
         </form><br>
-        <div class="h4">Наши телефоны: +7 708 9731440, +7 775 6534447, +7 727 9731440</div>
+        <div class="h4">
+          Мы находимся по адресу: г. Алматы, пр. Абая 202/1, угол ул. Тлендиева, 3 этаж<br><br>
+          Режим работы: с 10:00 - 20:00 воскресенье выходной<br><br>
+          Наши телефоны: +7 708 9731440, +7 775 6534447, +7 727 9731440
+        </div>
       </div>
     </div>
 
@@ -427,5 +441,6 @@
         });
       });
     </script>
+    <script crossorigin="anonymous" async type="text/javascript" src="//api.pozvonim.com/widget/callback/v3/b41051429ce77ce75f66c4c31653a4e6/connect" id="check-code-pozvonim" charset="UTF-8"></script>
   </body>
 </html>

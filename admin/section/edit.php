@@ -30,8 +30,8 @@ if (!empty($_POST))
 	try {
 		$updateSection->execute([
 			'id' => (int) $_POST['id'],
-			'title' => $_POST['title'],
-			'text' => $_POST['text'],
+			'title' => e($_POST['title']),
+			'text' => html_entity_decode($_POST['text']),
 			'status' => ($_POST['status'] == 1) ? 1 : 0,
 		]);
 	} catch (PDOException $e) {

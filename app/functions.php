@@ -1,5 +1,10 @@
 <?php
 
+function e($data)
+{
+    return htmlentities($data);
+}
+
 function clear_data($data)
 {
     return trim(strip_tags($data));
@@ -17,7 +22,7 @@ function get_categories($db, $section_id)
     return $categories->fetchAll(PDO::FETCH_ASSOC);
 }
 
-function validate($post, $post_rules)
+function validate($post, $post_rules, $lang = 'en')
 {
     $notifications = [];
 
@@ -27,29 +32,43 @@ function validate($post, $post_rules)
 
         foreach ($array_rules as $item_rule)
         {
-            if (strpos($item_rule, 'min'))
+            if (strpos($item_rule, 'min')) {
                 list($item_rule, $min) = explode(':', $item_rule);
+            }
 
-            if (strpos($item_rule, 'max'))
+            if (strpos($item_rule, 'max')) {
                 list($item_rule, $max) = explode(':', $item_rule);
+            }
 
             switch ($item_rule)
             {
                 case 'required':
-                    if (empty($post[$title]))
-                        $notifications[$title]['empty_value'] = 'Value must not be empty';
+                    if (empty($post[$title])) {
+                        $notifications[$title]['empty_value'] = ($lang == 'ru')
+                            ? 'Значение не должно пусть'
+                            : 'Value must not be empty';
+                    }
                     break;
                 case 'integer':
-                    if (!is_numeric($post[$title]))
-                        $notifications[$title]['not_integer'] = 'Value must be integer';
+                    if (!is_numeric($post[$title])) {
+                        $notifications[$title]['not_integer'] = ($lang == 'ru')
+                            ? 'Значение должно быть числом'
+                            : 'Value must be integer';
+                    }
                     break;
                 case 'length-min':
-                    if (strlen($post[$title]) < $min)
-                        $notifications[$title]['short_value'] = 'Value must not be less than ' . $min;
+                    if (strlen($post[$title]) < $min) {
+                        $notifications[$title]['short_value'] = ($lang == 'ru')
+                            ? 'Количество символов должно быть не менее ' . $min
+                            : 'Value must not be less than ' . $min;
+                    }
                     break;
                 case 'length-max':
-                    if (strlen($post[$title]) > $max)
-                        $notifications[$title]['long_value'] = 'Value may not be greater than ' . $max;
+                    if (strlen($post[$title]) > $max) {
+                        $notifications[$title]['long_value'] = ($lang == 'ru')
+                            ? 'Количество символов не может превышать ' . $max
+                            : 'Value may not be greater than ' . $max;
+                    }
                     break;
             }
         }

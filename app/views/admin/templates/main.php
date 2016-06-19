@@ -1,5 +1,5 @@
 
       <div class="jumbotron">
-        <h1 class="text-center">AsSalyamu alaikum, Admin!</h1>
+        <h1 class="text-center">АсСаляму ъалайкум Админ!</h1>
       </div>
 

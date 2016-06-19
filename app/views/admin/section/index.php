@@ -1,18 +1,18 @@
 <?php require VIEW_ROOT . '/admin/templates/header.php'; ?>
 
-      <p class="text-right"><a class="btn btn-success" href="<?= BASE_URL ?>/admin/section/add.php">Add section</a></p>
+      <p class="text-right"><a class="btn btn-success" href="<?= BASE_URL ?>/admin/section/add.php">Добавить раздел</a></p>
 
       <?php if (empty($section)) : ?>
-        <p>No data at the moment</p>
+        <p>Нет разделов в данный момент</p>
       <?php else: ?>
-        <h3>Section</h3>
+        <h3>Разделы</h3>
         <table class="table">
           <thead>
             <tr>
               <th>#</th>
-              <th>Title</th>
-              <th>Status</th>
-              <th>Functions</th>
+              <th>Название</th>
+              <th>Статус</th>
+              <th>Функции</th>
             </tr>
           </thead>
           <tbody>
@@ -22,7 +22,7 @@
                 <td><?= $i++ ?></td>
                 <td><?= $item['title'] ?></td>
                 <td><?= ($item['status'] == 1) ? 'Активен' : 'Неактивен' ?></td>
-                <td><a href="<?= BASE_URL ?>/admin/section/edit.php?id=<?= $item['id'] ?>">Edit</a></td>
+                <td><a href="<?= BASE_URL ?>/admin/section/edit.php?id=<?= $item['id'] ?>">Редактировать</a></td>
               </tr>
             <?php endforeach; ?>
           </tbody>

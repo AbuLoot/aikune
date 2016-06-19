@@ -25,8 +25,8 @@ if (!empty($_POST))
 
 	try {
 		$insertSection->execute([
-			'title' => $_POST['title'],
-			'text' => $_POST['text'],
+			'title' => e($_POST['title']),
+			'text' => e($_POST['text']),
 			'status' => ($_POST['status'] == 1) ? 1 : 0,
 		]);
 	} catch (PDOException $e) {

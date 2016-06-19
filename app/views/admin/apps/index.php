@@ -8,9 +8,9 @@
           <thead>
             <tr>
               <th>#</th>
-              <th>Names</th>
-              <th>Phones</th>
-              <th>Functions</th>
+              <th>Имя</th>
+              <th>Номер</th>
+              <th>Функции</th>
             </tr>
           </thead>
           <tbody>
@@ -20,7 +20,7 @@
                 <td><?= $i++ ?></td>
                 <td><?= $app['name'] ?></td>
                 <td><?= $app['phone'] ?></td>
-                <td><a href="<?= BASE_URL ?>/admin/apps/edit.php?id=<?= $app['id'] ?>">Edit</a></td>
+                <td><a href="<?= BASE_URL ?>/admin/apps/delete.php?id=<?= $app['id'] ?>">Удалить</a></td>
               </tr>
             <?php endforeach; ?>
           </tbody>

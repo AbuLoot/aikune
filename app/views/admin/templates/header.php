@@ -38,8 +38,8 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav">
             <?php $uri = $_SERVER['REQUEST_URI']; ?>
-            <li <?php if (strpos($uri, 'apps')) echo 'class="active"'; ?>><a href="<?= BASE_URL ?>/admin/apps/index.php">Apps</a></li>
-            <li <?php if (strpos($uri, 'section')) echo 'class="active"'; ?>><a href="<?= BASE_URL ?>/admin/section/index.php">Section</a></li>
+            <li <?php if (strpos($uri, 'apps')) echo 'class="active"'; ?>><a href="<?= BASE_URL ?>/admin/apps/index.php">Заявки</a></li>
+            <li <?php if (strpos($uri, 'section')) echo 'class="active"'; ?>><a href="<?= BASE_URL ?>/admin/section/index.php">Разделы</a></li>
           </ul>
         </div>
       </nav>
