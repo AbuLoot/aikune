@@ -20,7 +20,7 @@
 }
 .logo > a > img {
   max-width: 200px;
-  margin: 20px 15px;
+  margin: 20px 15px 5px;
 }
 .menu {
   text-align: right;

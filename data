@@ -1,0 +1,5 @@
+DB
+host: srv-db-plesk06.ps.kz:3306
+dbname: aikunekz_data
+user: aikun_user
+pass: k&k3Sw22
