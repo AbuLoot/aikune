@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Aikune</title>
-    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/png">
+    <title>Aikune – Оздоровительно-Реабилитационный Центр</title>
+    <link rel="shortcut icon" href="/public/img/favicon-32x32.png" type="image/png">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="/public/css/bootstrap.min.css">
@@ -421,6 +421,7 @@
           <li><a class="soc-twitter" href="#"></a></li>
           <li><a class="soc-facebook" href="#"></a></li>
           <li><a class="soc-google" href="#"></a></li>
+          <li><a class="soc-instagram" href="#"></a></li>
           <li><a class="soc-vkontakte" href="#"></a></li>
           <li><a class="soc-youtube soc-icon-last" href="#"></a></li>
         </ul><br>

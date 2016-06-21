@@ -525,3 +525,9 @@ label { font-weight: 400; }
 .soc-youtube:before {
   content:'r';
 }
+.soc-instagram {
+    background-color: #9c7c6e;
+}
+.soc-instagram:before {
+    content:'x';
+}
