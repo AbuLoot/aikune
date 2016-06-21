@@ -29,7 +29,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		]);
 	} catch (PDOException $e) {
 	    echo $e->getMessage();
-	    // exit();
 	}
 
     $name = clear_data($_POST["name"]);
@@ -45,16 +44,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = "Новая заявка от $name";
 
     // Build the email content.
-    $email_content = "Имя: $name\n";
-    $email_content .= "Номер: $phone\n\n";
-
-    // Build the email headers.
-	$email_headers = 'From: webmaster@example.com' . "\r\n" .
-			    	'Reply-To: webmaster@example.com' . "\r\n" .
-			    	'X-Mailer: PHP/' . phpversion();
+    $email_content = "Имя: $name\n Номер: $phone\n";
 
     // Send the email.
-    if (mail($recipient, $subject, $email_content, $email_headers)) {
+    if (mail($recipient, $subject, $email_content)) {
 
         // Set a 200 (okay) response code.
         http_response_code(200);

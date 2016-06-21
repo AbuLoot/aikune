@@ -223,12 +223,12 @@ ul.list-menu > li > a.shares-link {
 }
 .help-list {
   width: 95%;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .help-list > li {
   color: #fff;
   font-size: 22px;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
   list-style-type: disc;
 }
 
@@ -236,7 +236,7 @@ ul.list-menu > li > a.shares-link {
 
 @media (min-width: 768px) {
   .symptoms {
-    margin-top: 129px;
+    margin-top: 110px;
   }
 }
 
