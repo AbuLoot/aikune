@@ -133,6 +133,28 @@
         <div class="col-md-offset-3 col-md-6 gymnastics">
           <p>«Гимнастика Айкуне - это запатентованная технология, не имеющая аналогов и применяющаяся на практике более 17 лет. В арсенале Айкуне свыше 1 000 упражнений, освоить которые под силу каждому. Именно поэтому эта методика практически не имеет возрастных ограничений и серьезных противопоказаний. Айкуне является одним из самых эффективных способов исправить многие проблемы позвоночника, избегая хирургического вмешательства!</p>
         </div>
+
+
+        <div class="col-md-offset-4 col-md-4 app-form">
+          <div class="h3">Запишитесь на <span>бесплатное</span> пробное занятие!</div>
+
+          <?php require VIEW_ROOT . '/templates/alerts.php'; ?>
+
+          <form method="POST" action="<?= BASE_URL ?>/apps.php" accept-charset="UTF-8">
+            <div class="form-group">
+              <label for="name">Имя</label>
+              <input type="text" name="name" class="form-control input-lg" id="name" maxlength="40" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Номер телефона</label>
+              <input type="tel" name="phone" class="form-control input-lg" id="phone" maxlength="20" required>
+            </div>
+            <div class="form-group">
+              <label>&nbsp;</label>
+              <button type="submit" class="btn btn-primary btn-lg btn-block">ЗАПИСАТЬСЯ!</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 
@@ -319,7 +341,7 @@
         <div class="col-md-6">
           <img class="img-responsive center-block" src="/public/img/massage.jpg">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6"><br>
           <p>Предлагаем Вам услуги профессионального массажиста: классический, лечебный, стоун-терапия, антицеллюлитный, массаж спины, стоп, ног, скраб тела.</p>
           <p>Массаж разносторонне влияет на организм: способствует усилению циркуляции крови и лимфы, активизирует обмен веществ, стимулирует пищеварение, увеличивает мышечный тонус, выводит токсины и шлаки. Помимо этого, он оказывает крайне благотворное влияние на нервную систему – помогает расслабиться, восстанавливает силы и борется со стрессом и бессонницей. А все потому, что на коже находится много нервных окончаний, и при прикосновениях в мозг посылаются сигналы, способствующие выработке эндорфина – гормона счастья.</p>
         </div>
@@ -329,7 +351,7 @@
         <div class="col-md-6">
           <img class="img-responsive center-block" src="/public/img/refa/slide1.jpg"><br>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6"><br>
           <p>Инновационный массажер для ухода за кожей лица и тела с платиновым покрытием. Способствует омоложению, разглаживанию морщин и лифтингу кожи. Уникальный метод массажа крутящимися роликами позволяет увидеть результат уже после 5 минут пользования. Встроенная солнечная панель, принимая лучи света, создает ток низкой частоты. Микротоковая терапия способствует улучшению микроциркуляции крови, регенерации клеток. Благодаря этому происходит образование новых эластиновых и коллагеновых волокн. Морщины разглаживаются и коже возвращается эластичность, улучшается цвет и внешний вид.</p>
           <p>Произведено в Японии. <br><br> Подробнее на сайте <a href="http://kjstyle.kz/">kjstyle.kz</a></p>
         </div>
@@ -384,7 +406,7 @@
     <!-- Contacts -->
     <div class="contacts" id="contacts">
       <div class="container">
-        <div class="h3">Запишитесь на <span class="text-warning" style="color: #EF86A9;">бесплатное</span> пробное занятие!</div>
+        <div class="h3">Запишитесь на <span>бесплатное</span> пробное занятие!</div>
         <!-- <div class="h3">Пишите нам и с Вами свяжутся наши специалисты</div> -->
 
         <?php require VIEW_ROOT . '/templates/alerts.php'; ?>
@@ -400,7 +422,7 @@
           </div>
           <div class="col-md-4 form-group">
             <label>&nbsp;</label>
-            <button type="submit" class="btn btn-primary btn-lg btn-block">Записаться!</button>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">ЗАПИСАТЬСЯ!</button>
           </div>
         </form><br>
         <div class="h4">
