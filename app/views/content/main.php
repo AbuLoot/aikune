@@ -183,7 +183,9 @@
             <img class="img-responsive" src="/public/img/4-mini-review-document2.jpg">
           </a>
         </div>
-        <br>
+        <div class="col-md-12">
+          <br>
+        </div>
         <div class="col-md-3 col-xs-6">
           <a href="/public/img/4-sertificate1.jpg" target="blank">
             <img class="img-responsive" src="/public/img/4-mini-sertificate1.jpg">
