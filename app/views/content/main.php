@@ -163,44 +163,41 @@
       <div class="container">
         <div class="h3">НАШ ПАТЕНТ И СЕРТИФИКАТЫ</div>
 
-        <div class="row">
-          <div class="col-md-3 col-xs-6">
-            <a href="/public/img/4-patent1.jpg" target="blank">
-              <img class="img-responsive" src="/public/img/4-mini-patent1.jpg">
-            </a>
-          </div>
-          <div class="col-md-3 col-xs-6">
-            <a href="/public/img/4-patent2.jpg" target="blank">
-              <img class="img-responsive" src="/public/img/4-mini-patent2.jpg">
-            </a>
-          </div>
-          <div class="col-md-3 col-xs-6">
-            <a href="/public/img/4-review-document1.jpg" target="blank">
-              <img class="img-responsive" src="/public/img/4-mini-review-document1.jpg">
-            </a>
-          </div>
-          <div class="col-md-3 col-xs-6">
-            <a href="/public/img/4-review-document2.jpg" target="blank">
-              <img class="img-responsive" src="/public/img/4-mini-review-document2.jpg">
-            </a>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-md-3 col-xs-6">
-            <a href="/public/img/4-sertificate1.jpg" target="blank">
-              <img class="img-responsive" src="/public/img/4-mini-sertificate1.jpg">
-            </a>
-          </div>
-          <div class="col-md-3 col-xs-6">
-            <a href="/public/img/4-sertificate2.jpg" target="blank">
-              <img class="img-responsive" src="/public/img/4-mini-sertificate2.jpg">
-            </a>
-          </div>
-          <div class="col-md-3 col-xs-6">
-            <a href="/public/img/4-sertificate3.jpg" target="blank">
-              <img class="img-responsive" src="/public/img/4-mini-sertificate3.jpg">
-            </a>
-          </div>
+        <div class="col-md-3 col-xs-6">
+          <a href="/public/img/4-patent1.jpg" target="blank">
+            <img class="img-responsive" src="/public/img/4-mini-patent1.jpg">
+          </a>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <a href="/public/img/4-patent2.jpg" target="blank">
+            <img class="img-responsive" src="/public/img/4-mini-patent2.jpg">
+          </a>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <a href="/public/img/4-review-document1.jpg" target="blank">
+            <img class="img-responsive" src="/public/img/4-mini-review-document1.jpg">
+          </a>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <a href="/public/img/4-review-document2.jpg" target="blank">
+            <img class="img-responsive" src="/public/img/4-mini-review-document2.jpg">
+          </a>
+        </div>
+        <br>
+        <div class="col-md-3 col-xs-6">
+          <a href="/public/img/4-sertificate1.jpg" target="blank">
+            <img class="img-responsive" src="/public/img/4-mini-sertificate1.jpg">
+          </a>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <a href="/public/img/4-sertificate2.jpg" target="blank">
+            <img class="img-responsive" src="/public/img/4-mini-sertificate2.jpg">
+          </a>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <a href="/public/img/4-sertificate3.jpg" target="blank">
+            <img class="img-responsive" src="/public/img/4-mini-sertificate3.jpg">
+          </a>
         </div>
       </div>
     </div>
@@ -270,16 +267,15 @@
       <!-- How it works -->
       <div class="how-it-works container">
         <div class="h3">КАК РАБОТАЕТ "АЙКУНЕ-ТЕРАПИЯ"</div>
-        <div class="">
-          <div class="col-md-4">
-            <p>1. Укрепляются внутренние мышцы и связочный аппарат позвоночника, туловища, тазовой области, верхних и нижних конечностей.</p><br>
-          </div>
-          <div class="col-md-4">
-            <p>2. При плавном растяжении позвоночника увеличивается расстояние между позвонками, межпозвонковые диски занимают свое "правильное положение".</p><br>
-          </div>
-          <div class="col-md-4">
-            <p>3. Мягкое растяжение позвоночника позволяет освободить зажатые нервные корешки, блокировка которых и доставляет боль при заболеваниях позвоночника.</p><br>
-          </div>
+
+        <div class="col-md-4">
+          <p>1. Укрепляются внутренние мышцы и связочный аппарат позвоночника, туловища, тазовой области, верхних и нижних конечностей.</p><br>
+        </div>
+        <div class="col-md-4">
+          <p>2. При плавном растяжении позвоночника увеличивается расстояние между позвонками, межпозвонковые диски занимают свое "правильное положение".</p><br>
+        </div>
+        <div class="col-md-4">
+          <p>3. Мягкое растяжение позвоночника позволяет освободить зажатые нервные корешки, блокировка которых и доставляет боль при заболеваниях позвоночника.</p><br>
         </div>
       </div>
     </div>

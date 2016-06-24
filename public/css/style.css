@@ -236,7 +236,7 @@ ul.list-menu > li > a.shares-link {
 
 @media (min-width: 768px) {
   .symptoms {
-    margin-top: 110px;
+    margin-top: 108px;
   }
 }
 
@@ -422,8 +422,7 @@ ul.list-menu > li > a.shares-link {
   margin-bottom: 50px;
   text-transform: uppercase;
 }
-.contacts > div > .h3 > span,
- {
+.contacts > div > .h3 > span {
   color: #EF86A9;
 }
 .app-form {
