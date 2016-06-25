@@ -23,7 +23,7 @@
     <nav class="nav-menu">
       <div class="container">
         <div class="logo">
-          <a href="#"><img class="img-responsive" src="/public/img/logo.png"></a>
+          <a href="<?= BASE_URL ?>"><img class="img-responsive" src="/public/img/logo.png"></a>
         </div>
         <div class="menu">
           <ul class="phones">
@@ -135,26 +135,6 @@
         </div>
 
 
-        <div class="col-md-offset-4 col-md-4 app-form">
-          <div class="h3">Запишитесь на <span>бесплатное</span> пробное занятие!</div>
-
-          <?php require VIEW_ROOT . '/templates/alerts.php'; ?>
-
-          <form method="POST" action="<?= BASE_URL ?>/apps.php" accept-charset="UTF-8">
-            <div class="form-group">
-              <label for="name">Имя</label>
-              <input type="text" name="name" class="form-control input-lg" id="name" maxlength="40" required>
-            </div>
-            <div class="form-group">
-              <label for="phone">Номер телефона</label>
-              <input type="tel" name="phone" class="form-control input-lg" id="phone" maxlength="20" required>
-            </div>
-            <div class="form-group">
-              <label>&nbsp;</label>
-              <button type="submit" class="btn btn-primary btn-lg btn-block">ЗАПИСАТЬСЯ!</button>
-            </div>
-          </form>
-        </div>
       </div>
     </div>
 
@@ -280,6 +260,30 @@
           <p>3. Мягкое растяжение позвоночника позволяет освободить зажатые нервные корешки, блокировка которых и доставляет боль при заболеваниях позвоночника.</p><br>
         </div>
       </div>
+
+      <div class="container" id="app">
+        <div class="col-md-offset-4 col-md-4 app-form">
+          <div class="h3">Запишитесь на <span>бесплатное</span> пробное занятие!</div>
+
+          <?php require VIEW_ROOT . '/templates/alerts.php'; ?>
+
+          <form method="POST" action="<?= BASE_URL ?>/apps.php" accept-charset="UTF-8">
+            <input type="hidden" name="first-form">
+            <div class="form-group">
+              <label for="name">Имя</label>
+              <input type="text" name="name" class="form-control input-lg" id="name" maxlength="40" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Номер телефона</label>
+              <input type="tel" name="phone" class="form-control input-lg" id="phone" maxlength="20" required>
+            </div>
+            <div class="form-group">
+              <label>&nbsp;</label>
+              <button type="submit" class="btn btn-primary btn-lg btn-block">ЗАПИСАТЬСЯ!</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
 
     <!-- Advantage -->
@@ -372,22 +376,7 @@
       <div class="container">
         <div class="h3">Отзывы и результаты Наших пациентов</div>
         <div class="scroll-reviews"><br>
-          <div class="comment">
-            <p>Причиной обращения в Айкуне центр стали боли в области поясницы, ну а также сам сколиоз. При осмотре инструктор Асия уверена сказала, что вылечим! (и была права). На 5 день занятий я увидела ошеломительное отличие, позвоночник на глазах выпрямился. Через 10 дней занятий базы и 10 дней занятий классики позвоночник стал на 90% ровный. занятие в Айкуне центре улучшило не только общее состояние здоровья, а также поспособствовало снижению веса.</p>
-            <footer>ТЕН ВЕРОНИКА, 25 ЛЕТ</footer>
-          </div><br><br>
-          <div class="comment">
-            <p>Я пришла на курсы Айкуне потому что меня беспокоил S образный сколиоз 3 - степени. Искревление позвоночника доставляло мне неудобство, меня беспокоили боли. Уже после трех занятии Айкуне я почувствовала облегчение, боли, которые меня беспокоили прошли. Базовый курс я окончила за 2 недели и результатом я очень довольна! Спасибо!</p>
-            <footer>АЙГЕРИМ МАМЕТЕКОВА, 22 ГОДА</footer>
-          </div><br><br>
-          <div class="comment">
-            <p>Последние 5 лет постоянные боли в спине, в пояснице. Два месяца назад не смогла встать с постели. Диагноз протрузия пояснично-крестового отдела, сколиоз грудного отдела, остеохондроз. Перепробовала все виды лечения (массаж, система, блокада). Сестра посоветовала сходить на гимнастику Айкуне (1 – урок бесплатный). После третьего урока боль прошла в пояснице. А с 7-ого урока я легко двигалась, мышцы спины подтянулись и сбросила вес.</p>
-            <footer>ЛЯЙЛЯ АЛИБАЕВА, 35 ЛЕТ</footer>
-          </div><br><br>
-          <div class="comment">
-            <p>...В результате - спина обрела свободу, ушли спазмы с полости живота, наладился сон. А это для меня многого стоит. Очень здорово, что появился такой метод избавления от тяжелых недугов. Еще хочу отметить, хороший коллектив молодых, добрых, отзывчивых девушек. Домашняя обстановка в «Айкуне» – это то, что не хватает нам в государственных медучреждениях...</p>
-            <footer>ТАИСИЯ АЛЕКСАНДРОВНА, 85 ЛЕТ</footer>
-          </div><br><br>
+          <?= $reviews['text'] ?>
         </div>
       </div>
     </div>
@@ -396,8 +385,8 @@
     <!-- Shares -->
     <div class="shares" id="shares">
       <div class="container">
-        <div class="h3"><?= $item['title'] ?></div>
-        <?= $item['text'] ?>
+        <div class="h3"><?= $shares['title'] ?></div>
+        <?= $shares['text'] ?>
       </div>
     </div>
 
@@ -408,6 +397,10 @@
         <!-- <div class="h3">Пишите нам и с Вами свяжутся наши специалисты</div> -->
 
         <?php require VIEW_ROOT . '/templates/alerts.php'; ?>
+
+        <?php if (isset($_SESSION['success'])) : ?>
+          <?php unset($_SESSION['success']); ?>
+        <?php endif; ?>
 
         <form method="POST" action="<?= BASE_URL ?>/apps.php" class="row" accept-charset="UTF-8">
           <div class="col-md-4 form-group">
@@ -437,15 +430,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <ul class="soc">
-          <li><a class="soc-twitter" href="#"></a></li>
-          <li><a class="soc-facebook" href="#"></a></li>
-          <li><a class="soc-google" href="#"></a></li>
-          <li><a class="soc-instagram" href="#"></a></li>
-          <li><a class="soc-vkontakte" href="#"></a></li>
-          <li><a class="soc-youtube soc-icon-last" href="#"></a></li>
-        </ul><br>
-        <p>Права © 2016. Сайт принадлежит Оздоровительно-реабилитационному Центру «Айкуне»</p>
+        <?= $footer['text'] ?>
       </div>
     </footer>
 

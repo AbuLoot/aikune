@@ -6,7 +6,7 @@ if (!empty($_POST))
 {
 	$notifications = validate($_POST, [
 		'id' => 'required|integer',
-		'title' => 'length-min:3|length-max:30',
+		'title' => 'length-min:3|length-max:80',
 		'text' => 'required',
 		'status' => 'integer',
 	]);

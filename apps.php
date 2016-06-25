@@ -5,15 +5,20 @@ require_once 'app/start.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 	$notifications = validate($_POST, [
-		'name' => 'length-min:3|length-max:40',
-		'phone' => 'length-min:3|length-max:40',
+		'name' => 'length-min:3|length-max:60',
+		'phone' => 'length-min:3|length-max:60',
 	], 'ru');
 
 	if (count($notifications) > 0) {
 
 		$_SESSION['notifications'] = $notifications;
 
-		header('Location: ' . BASE_URL . '#contacts');
+		if (isset($_POST['first-form'])) {
+			header('Location: ' . BASE_URL . '#app');
+		} else {
+			header('Location: ' . BASE_URL . '#contacts');
+		}
+
 		die();
 	}
 
@@ -36,25 +41,37 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Set the recipient email address.
     // FIXME: Update this to your desired email address.
-    $recipient = "is.adilet@mail.ru";
     // aikune.centr@gmail.com
-    // olsalogistics@mail.ru
+    $recipient = "is.adilet@mail.ru, olsalogistics@mail.ru, adetbekov222@gmail.com, elmirok_89@mail.ru";
 
     // Set the email subject.
     $subject = "Новая заявка от $name";
 
     // Build the email content.
-    $email_content = "Имя: $name\n Номер: $phone\n";
+    $content = "<h2>Aikune.kz</h2>";
+    $content .= "<b>Имя: $name</b><br>";
+    $content .= "<b>Номер: $phone</b><br>";
+    $content .= "<b>Дата: " . date('Y-m-d') . "</b><br>";
+    $content .= "<b>Время: " . date('G:i') . "</b><br>";
+
+	$headers = "From: Aikune.kz < email >\r\n" .
+               "MIME-Version: 1.0" . "\r\n" . 
+               "Content-type: text/html; charset=UTF-8" . "\r\n"; 
 
     // Send the email.
-    if (mail($recipient, $subject, $email_content)) {
+    if (mail($recipient, $subject, $content, $headers)) {
 
         // Set a 200 (okay) response code.
         http_response_code(200);
 
 		$_SESSION['success'] = 'success';
 
-		header('Location: ' . BASE_URL . '#contacts');
+		if (isset($_POST['first-form'])) {
+			header('Location: ' . BASE_URL . '#app');
+		} else {
+			header('Location: ' . BASE_URL . '#contacts');
+		}
+
 		exit();
     }
     else {

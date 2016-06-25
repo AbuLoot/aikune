@@ -10,9 +10,8 @@
             </ul>
           <?php endforeach; ?>
         </div>
+        <?php unset($_SESSION['notifications']); ?>
       <?php endif; ?>
-
-      <?php unset($_SESSION['notifications']); ?>
 
       <?php if (isset($_SESSION['success'])) : ?>
         <!-- SUCCESS -->
@@ -20,5 +19,3 @@
           <p>Спасибо, Вам скоро позвонят!</p>
         </div>
       <?php endif; ?>
-
-      <?php unset($_SESSION['success']); ?>

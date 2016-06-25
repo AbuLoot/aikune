@@ -5,7 +5,7 @@ require '../../app/start.php';
 if (!empty($_POST))
 {
 	$notifications = validate($_POST, [
-		'title' => 'length-min:3|length-max:30',
+		'title' => 'length-min:3|length-max:80',
 		'text' => 'required',
 		'status' => 'required|integer'
 	]);
@@ -26,7 +26,7 @@ if (!empty($_POST))
 	try {
 		$insertSection->execute([
 			'title' => e($_POST['title']),
-			'text' => e($_POST['text']),
+			'text' => html_entity_decode($_POST['text']),
 			'status' => ($_POST['status'] == 1) ? 1 : 0,
 		]);
 	} catch (PDOException $e) {
